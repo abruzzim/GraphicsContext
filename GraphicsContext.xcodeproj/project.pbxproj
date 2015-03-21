@@ -14,6 +14,12 @@
 		AF8209481ABCF552003A222C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8209471ABCF552003A222C /* Images.xcassets */; };
 		AF82094B1ABCF552003A222C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8209491ABCF552003A222C /* LaunchScreen.xib */; };
 		AF8209571ABCF552003A222C /* GraphicsContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8209561ABCF552003A222C /* GraphicsContextTests.m */; };
+		AF8209621ABD1D9B003A222C /* DrawView1.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8209611ABD1D9B003A222C /* DrawView1.m */; };
+		AF8209651ABD1E91003A222C /* DrawView2.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8209641ABD1E91003A222C /* DrawView2.m */; };
+		AF8209681ABD1F66003A222C /* DrawView3.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8209671ABD1F66003A222C /* DrawView3.m */; };
+		AF82096B1ABD203D003A222C /* DrawView4.m in Sources */ = {isa = PBXBuildFile; fileRef = AF82096A1ABD203D003A222C /* DrawView4.m */; };
+		AF82096E1ABD2193003A222C /* DrawImageView1.m in Sources */ = {isa = PBXBuildFile; fileRef = AF82096D1ABD2193003A222C /* DrawImageView1.m */; };
+		AF8209711ABD2252003A222C /* DrawImageView2.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8209701ABD2252003A222C /* DrawImageView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		AF8209501ABCF552003A222C /* GraphicsContextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphicsContextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8209551ABCF552003A222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8209561ABCF552003A222C /* GraphicsContextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicsContextTests.m; sourceTree = "<group>"; };
+		AF8209601ABD1D9B003A222C /* DrawView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView1.h; sourceTree = "<group>"; };
+		AF8209611ABD1D9B003A222C /* DrawView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView1.m; sourceTree = "<group>"; };
+		AF8209631ABD1E91003A222C /* DrawView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView2.h; sourceTree = "<group>"; };
+		AF8209641ABD1E91003A222C /* DrawView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView2.m; sourceTree = "<group>"; };
+		AF8209661ABD1F66003A222C /* DrawView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView3.h; sourceTree = "<group>"; };
+		AF8209671ABD1F66003A222C /* DrawView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView3.m; sourceTree = "<group>"; };
+		AF8209691ABD203D003A222C /* DrawView4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView4.h; sourceTree = "<group>"; };
+		AF82096A1ABD203D003A222C /* DrawView4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView4.m; sourceTree = "<group>"; };
+		AF82096C1ABD2193003A222C /* DrawImageView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawImageView1.h; sourceTree = "<group>"; };
+		AF82096D1ABD2193003A222C /* DrawImageView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawImageView1.m; sourceTree = "<group>"; };
+		AF82096F1ABD2252003A222C /* DrawImageView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawImageView2.h; sourceTree = "<group>"; };
+		AF8209701ABD2252003A222C /* DrawImageView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawImageView2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +104,18 @@
 				AF8209411ABCF552003A222C /* ViewController.h */,
 				AF8209421ABCF552003A222C /* ViewController.m */,
 				AF8209441ABCF552003A222C /* Main.storyboard */,
+				AF8209601ABD1D9B003A222C /* DrawView1.h */,
+				AF8209611ABD1D9B003A222C /* DrawView1.m */,
+				AF8209631ABD1E91003A222C /* DrawView2.h */,
+				AF8209641ABD1E91003A222C /* DrawView2.m */,
+				AF8209661ABD1F66003A222C /* DrawView3.h */,
+				AF8209671ABD1F66003A222C /* DrawView3.m */,
+				AF8209691ABD203D003A222C /* DrawView4.h */,
+				AF82096A1ABD203D003A222C /* DrawView4.m */,
+				AF82096C1ABD2193003A222C /* DrawImageView1.h */,
+				AF82096D1ABD2193003A222C /* DrawImageView1.m */,
+				AF82096F1ABD2252003A222C /* DrawImageView2.h */,
+				AF8209701ABD2252003A222C /* DrawImageView2.m */,
 				AF8209471ABCF552003A222C /* Images.xcassets */,
 				AF8209491ABCF552003A222C /* LaunchScreen.xib */,
 				AF82093A1ABCF552003A222C /* Supporting Files */,
@@ -219,8 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF82096E1ABD2193003A222C /* DrawImageView1.m in Sources */,
+				AF82096B1ABD203D003A222C /* DrawView4.m in Sources */,
+				AF8209621ABD1D9B003A222C /* DrawView1.m in Sources */,
 				AF8209431ABCF552003A222C /* ViewController.m in Sources */,
 				AF8209401ABCF552003A222C /* AppDelegate.m in Sources */,
+				AF8209711ABD2252003A222C /* DrawImageView2.m in Sources */,
+				AF8209651ABD1E91003A222C /* DrawView2.m in Sources */,
+				AF8209681ABD1F66003A222C /* DrawView3.m in Sources */,
 				AF82093D1ABCF552003A222C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
